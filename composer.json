@@ -1,0 +1,28 @@
+{
+    "name": "emlynwest/branchgraph",
+    "description": "Utility for generating basic branch graphs",
+    "type": "library",
+    "require": {
+        "symfony/console": "^4.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Emlyn West",
+            "email": "emlyn.west@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "BranchGraph\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BranchGraph\\": "src/"
+        }
+    }
+}
